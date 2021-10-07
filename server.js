@@ -13,3 +13,5 @@ server.use( '/foo', (req, res) => {
 server.use('/', mocks.server(server.Router(), false, false))
 
 server.start()
+
+console.log('start server')
